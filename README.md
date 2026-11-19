@@ -1,26 +1,39 @@
-# Scenario Sim Star
+# MOCKMATE – AI-Powered Mock Interview Coach
 
-Implement exactly the screenshot and nothing else
+An AI-powered mock interview platform designed to help students and job seekers practice interviews, evaluate their answers, and improve their interview performance.
 
-This project was built with [Lovable](https://lovable.dev).
+## Live Demo
 
-**Live app**: https://scenario-sim-star.lovable.app
+[https://scenario-sim-star.lovable.app](https://scenario-sim-star.lovable.app)
 
-## Build with Lovable
+## Features
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/a82651bf-b536-4e14-bb01-2bdcc8cd0e52).
+- **Interview Setup:** Configure interviews based on company, role, difficulty, and question count.
+- **AI Interview Practice:** Practice interview questions through an interactive interview interface.
+- **Answer Evaluation:** Evaluate responses based on correctness, depth, and communication.
+- **Personalized Coaching:** Receive feedback and suggestions to improve interview performance.
+- **Performance Reports:** Review interview results and track progress.
+- **Under the Hood:** Explore the platform's architecture and AI workflow.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## Tech Stack
 
-## Development
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Python (planned AI backend integration)
+- LangChain
+- ChromaDB
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Run Locally
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+git clone https://github.com/realmnsheena-star/scenario-sim-star.git
+cd scenario-sim-star
+npm install
 npm run dev
 ```
+
+## Project Status
+
+Frontend development is in progress. AI backend integration and complete interview functionality are planned.
